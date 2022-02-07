@@ -21,15 +21,15 @@ Pod::Spec.new do |s|
   s.summary = "WonderfullIndonesia Core.framework for modularization"
   s.requires_arc = true
   
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
 
   s.license = { :type => "MIT", :file => "LICENSE" }
   
   s.author             = { "ArifRach" => "Arifrach31@gmail.com" }
   
-  s.homepage = "https://github.com/arifrach31/Wi-Core.git"
+  s.homepage = "https://github.com/arifrach31/Wi-Core"
  
-  s.source = { :git => "https://github.com/arifrach31/Wi-Core", :tag => "#{s.version}" }
+  s.source = { :git => "https://github.com/arifrach31/Wi-Core.git", :tag => "#{s.version}" }
 
   s.framework = "UIKit"
 
@@ -39,7 +39,6 @@ Pod::Spec.new do |s|
   s.dependency 'ObjectMapper'
   s.dependency 'RxCocoa'
   s.dependency 'netfox'
-
   
   #s.resources = "Core/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
   
